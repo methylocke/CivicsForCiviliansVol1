@@ -1,0 +1,68 @@
+% ******************************************************** %
+% Copyright © Jonathan Gitlin 2011 – 2013
+%
+% This work is licensed under the Creative Commons 
+% Attribution-NonCommercial-ShareAlike 3.0 Unported License
+%
+% For More Information See the Creative Commons Website
+% http://creativecommons.org
+%
+% For A human readable summary, See:
+% http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+% For the Full Text of the License:
+% http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+%
+% No Claim Is Made To Original Works 
+% Of Other Sources Cited Within This Work
+%
+% ******************************************************** %
+
+\documentclass[oneside]{book}
+
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{setspace}
+
+\expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}
+
+\title{Civics for Civilians}
+\author{Jonathan Gitlin}
+
+\begin{document}
+
+\include{dedication}
+
+\pagestyle{empty}
+
+\renewcommand\thepage{}
+\tableofcontents
+\newpage
+\renewcommand\thepage{\arabic{page}}
+
+
+\frontmatter
+
+\pagestyle{plain}
+
+\onehalfspacing
+\include{preface}
+
+
+\mainmatter
+\pagestyle{plain}
+
+\include{introduction}
+\include{govandlaw}
+\include{legislative}
+\include{executive}
+\include{judiciary}
+
+\appendix
+\singlespacing
+\include{constitution}
+\include{conamend}
+\include{arofconf}
+
+
+\end{document}
